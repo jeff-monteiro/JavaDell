@@ -1,6 +1,6 @@
 
 public class ArraysUnidimensionais {
-		public void Exemplo2() {
+		public void exemplo2() {
 			
 			/* Array (vetor) de inteiros, com tamanho igual 50 */
 			int numeros[] = new int[50];
