@@ -13,19 +13,4 @@ public class Pessoa { //Classe Pessoa.
 		System.out.println("Olá, meu nome é: " + nome);
 	}
 	
-	public class TestePessoa{
-		public void main(String[]args) {
-			/*Criando um objeto para representar José de 32 anos*/
-			Pessoa jose = new Pessoa();
-			jose.nome = "José";
-			
-			/*Criando um objeto para representar Lara de 25 anos*/
-			Pessoa lara = new Pessoa();
-			lara.nome = "Lara";
-			
-			/*Fazendo ambos os objetos executar o método apresetar()*/
-			jose.apresentar();
-			lara.apresentar();
-		}
-	}
 }
