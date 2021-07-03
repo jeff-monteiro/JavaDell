@@ -6,7 +6,7 @@ public class TestePessoa {
 			jose.nome = "José";
 			
 			/*Criando um objeto para representar Lara de 25 anos*/
-			Pessoa lara = new Pessoa();
+			Pessoa lara = new Pessoa();//Método construtor
 			lara.nome = "Lara";
 			
 			/*Fazendo ambos os objetos executar o método apresetar()*/
