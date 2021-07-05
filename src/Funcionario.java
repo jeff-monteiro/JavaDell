@@ -1,6 +1,6 @@
 
 public class Funcionario {
-	String nome;
+	String nome;//Atributos da classe Pessoa.
 	double salario;
 	//Adiciona um valor ao salário base do funcionário
 	public void aplicarBonusAoSalario(double valor) {
