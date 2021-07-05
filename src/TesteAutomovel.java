@@ -11,6 +11,6 @@ public class TesteAutomovel {
 		Automovel auto02 = new Automovel("Trator", "Oleo Diesel", 1);
 		/*Acessando as informações de cada automóvel com métodos Get. */
 		System.out.println(auto01.getNome() + " - utiliza " + auto01.getCombustivel());
-		System.out.println(auto02.getNome() + " - transporta " + auto01.getQuantidadeDePassageiros() + " pessoa(s).");
+		System.out.println(auto02.getNome() + " - transporta " + auto02.getQuantidadeDePassageiros() + " pessoa(s).");
 	}
 }
