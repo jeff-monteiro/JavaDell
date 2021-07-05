@@ -3,9 +3,10 @@ public class Automovel {
 	private String nome;
 	private String combustivel;
 	private int quantidadeDePassageiros;
-	public Automovel(String nome) {
+	public Automovel(String nome) {//Método construtor01
 		this.nome = nome;
 	}
+	//Método construtor02
 	public Automovel(String nome, String combustivel, int quantidadeDePassageiros) {
 		this.nome = nome;
 		this.combustivel = combustivel;
