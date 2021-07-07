@@ -1,6 +1,6 @@
 package modelos;
 
-public class Aluno {//Clase Aluno
+public class Aluno {//Classe Aluno
 	String nome; //Atributos da classe
 	double nota1;
 	double nota2;
