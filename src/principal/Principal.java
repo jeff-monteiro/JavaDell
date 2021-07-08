@@ -11,7 +11,7 @@ public class Principal {
 		System.out.println(calcularMedia(aluno.getNota1(), aluno.getNota2()));
 	}
 	public static double calcularMedia(double nota1, double nota2) {//Método calcularMedia
-		return(nota1 + nota2)/2;//Imprimir resultado do calculo da Média Aritmética.	
+		return(nota1 + nota2)/2;//Retornar resultado do calculo da Média Aritmética.	
 	}
 	
 	
