@@ -3,9 +3,10 @@ public class C extends A{
 		private int bonus;
 		public C (int valor, int bonus) {
 			super();
+			this.valor = valor;
 			this.bonus = bonus;
 		}
-		public int calcularValor() {
+		public int calcularValor() {//@OverRide da classe A
 			return super.calcularValor() + bonus;
 		}
 		public static void main(String[] args) {
