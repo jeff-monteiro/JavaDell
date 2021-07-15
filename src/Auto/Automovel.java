@@ -23,4 +23,7 @@ public class Automovel {
 	public float getPreco() {
 		return preco;
 	}
+	public void exibir() {
+		
+	}
 }
