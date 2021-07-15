@@ -24,6 +24,8 @@ public class Automovel {
 		return preco;
 	}
 	public void exibir() {
-		
+		System.out.println("Peso: "+ this.getPeso());
+		System.out.println("Cor: "+ this.getCor());
+		System.out.println("Preço: "+ this.getPreco());
 	}
 }
