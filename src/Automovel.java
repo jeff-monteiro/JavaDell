@@ -1,4 +1,3 @@
-
 public class Automovel {
 	private String nome;
 	private String combustivel;
