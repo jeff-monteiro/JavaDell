@@ -23,7 +23,9 @@ public class Funcionario {
 	  public double getDesconto(){
 	   return desconto;
 	  }
-	  public static void calcularSalario(long cpf, double salario, double desconto){
-	     
+	  public Funcionario(long cpf, double salario, double desconto){
+	     this.cpf = cpf;
+	     this.salario = salario;
+	     this.desconto = desconto;
 	  }
 }
