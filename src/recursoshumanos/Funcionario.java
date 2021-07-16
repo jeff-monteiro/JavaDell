@@ -28,4 +28,8 @@ public class Funcionario {
 	     this.salario = salario;
 	     this.desconto = desconto;
 	  }
+	  public static double calcularSalario(double salario, double desconto) {
+		  return(salario - desconto);
+	  }
+	  
 }
