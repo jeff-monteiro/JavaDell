@@ -23,7 +23,7 @@ public class Funcionario {
 	  public double getDesconto(){
 	   return desconto;
 	  }
-	  public static void main(String[]args){
+	  public static void calcularSalario(long cpf, double salario, double desconto){
 	     
 	  }
 }
