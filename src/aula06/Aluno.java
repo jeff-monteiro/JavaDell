@@ -1,9 +1,9 @@
 package aula06;
 
-public class Aluno {
+public class Aluno extends Pessoa{
 	private String matricula;
 	public Aluno(String nome, String matricula) {
-		super();
+		super(nome);
 		this.matricula = matricula;
 	}
 	public String toString() {
