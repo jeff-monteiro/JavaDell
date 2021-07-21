@@ -9,6 +9,6 @@ public class Professor extends Pessoa{
 		this.disciplina = disciplina;
 	}
 	public String toString() {
-		return super.toString() + "Jefferson" + "\n Portuguese" + disciplina;
+		return super.toString() + "(Aluno)" + "\n (Portuguese)" + disciplina;
 	}
 }
