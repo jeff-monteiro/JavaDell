@@ -7,6 +7,6 @@ public class Aluno extends Pessoa{
 		this.matricula = matricula;
 	}
 	public String toString() {
-		return super.toString() + "(Professor)" + "\n Matricula" + matricula;
+		return super.toString() + "Aluno: \n" + " Matricula:" + matricula;
 	}
 }

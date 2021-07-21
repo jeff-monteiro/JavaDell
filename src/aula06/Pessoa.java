@@ -1,6 +1,6 @@
 package aula06;
 
-public class Pessoa {
+public class Pessoa {//Classe Abstrata
 	private String nome;
 	public Pessoa(String nome) {
 		this.nome = nome;
