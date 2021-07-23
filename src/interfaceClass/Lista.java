@@ -21,6 +21,8 @@ public class Lista implements Organizavel {
 	}
 
 public void ordemDecrescente() {
+	//Organiza os elementos do vetor
+	//numeros em ordem decrescente
 	continuar = true;
 	while(continuar == true) {
 		continuar = false;
