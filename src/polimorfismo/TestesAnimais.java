@@ -6,9 +6,9 @@ public class TestesAnimais {
 		Animal a1 = new Animal();
 		
 		//Instanciando objetos de subclasses para referências de superclasse
-		Animal a2 = new Animal();
-		Animal a3 = new Animal();
-		Animal a4 = new Animal();
+		Animal a2 = new Cavalo();
+		Animal a3 = new Sapo();
+		Animal a4 = new SerHumano();
 		
 		a1.moverSe(2);
 		a2.moverSe(2);
