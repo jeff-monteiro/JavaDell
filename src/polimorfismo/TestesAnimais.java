@@ -5,7 +5,7 @@ public class TestesAnimais {
 		//Instanciando um objeto a partir de uma classe
 		Animal a1 = new Animal();
 		
-		//instanciando objetos de subclasses para referências de superclasse
+		//Instanciando objetos de subclasses para referências de superclasse
 		Animal a2 = new Animal();
 		Animal a3 = new Animal();
 		Animal a4 = new Animal();
