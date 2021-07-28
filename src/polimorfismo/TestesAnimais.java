@@ -1,11 +1,15 @@
 package polimorfismo;
 
+import java.util.Scanner;
+
 public class TestesAnimais {
 	public static void main(String[]args) {
 		//Definição de referência de superclasse
 		Animal a;
 		System.out.println("1 - Ser Humano \n2 - Cavalo \n3 - Sapo" );
-		int opc = 2;
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Escolha uma das opções: ");
+		int opc = teclado.nextInt();
 		System.out.println("Opção escolhida " + opc);
 		//Instanciando objeto de uma das subclasses para referência da superclasse
 		if(opc == 1) 

@@ -4,6 +4,6 @@ package polimorfismo;
 
 public class Animal {//SuperClasse
 	public void moverSe(int qtAndar) {
-		System.out.println("Mover-se");
+		System.out.println("Sem forma de mover-se definida \n"+ "Utilize um animal específico.");
 	}
 }
