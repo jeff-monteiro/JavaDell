@@ -5,7 +5,7 @@ public class TestesAnimais {
 		//Definição de referência de superclasse
 		Animal a;
 		System.out.println("1 - Ser Humano \n2 - Cavalo \n3 - Sapo" );
-		int opc = 1;
+		int opc = 2;
 		System.out.println("Opção escolhida " + opc);
 		//Instanciando objeto de uma das subclasses para referência da superclasse
 		if(opc == 1) 
@@ -19,7 +19,7 @@ public class TestesAnimais {
 				else
 					a = new Animal();
 				
-			
+		a.moverSe(2);	
 	}
 }	
 		
